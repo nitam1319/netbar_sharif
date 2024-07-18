@@ -1,0 +1,12 @@
+.card_chart_box{
+    display: flex;
+    flex-direction: row !important;
+    gap:5px;
+    align-items: end;
+    div{
+        width: 5px;
+        background-color: #4287c8;
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
+    }
+}

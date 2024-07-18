@@ -1,0 +1,109 @@
+.card {
+    background-color: #1e2329;
+    border-radius: 9px;
+    width: 400px;
+    max-width: 400px;
+    height: 310px;
+    hr{
+        margin: 0 10px ;
+    }
+}
+
+.card_hade {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card_icon {
+    height: 80px;
+    border-radius: 9px;
+    overflow: hidden;
+    background-color: aliceblue;
+    color: black;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.domain {
+    background-color: #DF6710;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ip {
+    background-color: #53518c;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cloud {
+    background-color: #d0ae0b;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card_image {
+    width: 50px;
+    height: 50px;
+}
+
+.card_arrow {
+    width: 20px;
+    height: 20px;
+}
+.card_name{
+    margin:  10px ;
+}
+.card_live{
+    margin: 20px 10px ;
+    display: flex;
+
+}
+.live{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 5px;
+    grid-row-gap: 0px;
+    width: 100%;
+}
+.live>div{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    span{
+        font-size: 14px;
+    }
+}
+.card_footer{
+    display: flex;
+    margin: 20px 10px ;
+    justify-content: space-between;
+    div{
+        display: flex;
+        gap: 5px;
+        img{
+            width: 35px;
+            height: 35px;
+            background-color: #307990;
+            border-radius: 9px;
+            padding: 5px;
+        };
+        div{
+            display: flex;
+            flex-direction: column;
+            gap:0
+        }
+    }
+}

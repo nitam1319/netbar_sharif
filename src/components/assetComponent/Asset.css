@@ -1,0 +1,60 @@
+.D {
+    background-image: url('./assets/polygon_d.png');
+    width: 35px;
+    height: 35px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+
+.F {
+    background-image: url('./assets/polygon_f.png');
+    width: 35px;
+    height: 35px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.asset_item {
+    background-color: #2a2b3f;
+    display: flex;
+    padding: 5px;
+    border-radius: 5px;
+    align-items: center;
+    span {
+        display: block;
+        width: 180px;
+    }
+
+    .s1 {
+        min-width: 100px;
+        width: 10%;
+    }
+
+    .s2 {
+        width: 30%;
+    }
+
+    .s3 {
+        width: 30%;
+        min-width: 200px;
+        text-align: center;
+    }
+
+    .s4 {
+        width: 30%;
+        min-width: 200px;
+        text-align: center;
+    }
+}
+
